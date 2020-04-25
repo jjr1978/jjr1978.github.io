@@ -40,13 +40,13 @@ const app = new Vue({
       {
         display: "Río Grande",
         value: "RG",
-        habilitado: false,
-        tramites: ["REN", "CAT", "VAR"],
+        habilitado: true,
+        tramites: ["REN", "CAT", "VAR","CON"],
       },
       {
         display: "Buenos Aires",
         value: "BA",
-        habilitado: true,
+        habilitado: false,
         tramites: ["REN", "VAR"],
       },
     ],
@@ -55,6 +55,7 @@ const app = new Vue({
       { display: "Rentas", value: "REN", habilitado: false },
       { display: "Catastro", value: "CAT", habilitado: true },
       { display: "Varios", value: "VAR", habilitado: true },
+      { display: "contribuyentes", value: "CON", habilitado: true },
     ],
 
     horarios: {
